@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cambodia Mission – Rylee German</title>
+
+    <!-- Your OWN stylesheet only -->
+    <link rel="stylesheet" href="scratch.css">
+
+    <!-- (Optional) Google fonts for nicer type -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Core theme CSS (includes Bootstrap) -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Your custom scratch CSS -->
+    <link href="css/scratch.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <!-- Top navigation back to your “real” site -->
+    <div class="top-nav">
+        <a class="logo" href="index.html">Rylee German</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="post.html">Resume</a>
+            <a href="about.html">Number Game</a>
+            <a href="#khmer-phrase">Khmer Phrase</a>
+            <a href="#tableau-viz">Language Map</a>
+        </nav>
+    </div>
+<!-- Page Header -->
+<header class="scratch-hero" style="background-image: url(assets/img/AnkorWatSunset.jpg);">
+    <!-- <div class="container scratch-hero-text">
+        <h1>Cambodia</h1>
+        <h2>My 18-Month Experience</h2>
+    </div> -->
+</header>
+
+
+
+    <!-- HERO / INTRO -->
+    <main>
+        <section class="title-section">
+        <h1>Cambodia</h1>
+        <h2>My 18-Month Experience</h2>
+        </section>
+
+        <section class="mission-section">
+            <h2>Serving a Mission in Cambodia</h2>
+            <p>
+                 I spent 18 months in the Cambodia Phnom Penh West Mission,
+                teaching, serving, and learning to speak the Khmer language.
+                This page shares a few things I loved about the culture,
+                holidays, and people.
+            </p>
+        </section>
+
+
+        <!-- SECTION 1: CULTURE -->
+        <div class="section" id="culture">
+            <h2>Cambodian Culture Highlights</h2>
+            <p>
+                Cambodia is warm, loud, and full of scooters and smiles. The official language
+                is Khmer, written in a beautiful script. One simple greeting is
+                <span class="khmer-word">សួស្តី</span>
+                (<span class="khmer-pronounce">suos-sih-dei</span>) which means “hello.”
+            </p>
+            <p>
+                Daily life is centered around family, food, and the local <em>wat</em> (Buddhist temple).
+                Street markets open early, and you can buy anything from fresh mangoes to live chickens.
+            </p>
+        </div>
+
+        <!-- SECTION 2: HOLIDAYS WITH NESTED LISTS -->
+        <div class="section" id="holidays">
+            <h2>Holidays I Experienced</h2>
+            <p>Here are a few of the big holidays I remember, plus what they’re like on the ground:</p>
+
+            <!-- Ordered list with embedded unordered lists -->
+            <ol class="holiday-list">
+                <li>
+                    Khmer New Year (<em>Chaul Chnam Thmey</em>)
+                    <ul>
+                        <li>Lasts three days in April and feels like the entire country is on vacation.</li>
+                        <li>Families travel back to their hometowns to visit parents and grandparents.</li>
+                        <li>Lots of games, music, and sometimes huge water fights in the streets.</li>
+                    </ul>
+                </li>
+                <li>
+                    Pchum Ben (Ancestors’ Day)
+                    <ul>
+                        <li>A 15-day religious festival focused on honoring ancestors.</li>
+                        <li>People bring offerings to temples very early in the morning.</li>
+                        <li>We were often invited to eat traditional foods with local families.</li>
+                    </ul>
+                </li>
+                <li>
+                    Water Festival (<em>Bon Om Touk</em>)
+                    <ul>
+                        <li>Celebrates the reversing flow of the Tonlé Sap River.</li>
+                        <li>Huge boat races in Phnom Penh, with crews from all over the country.</li>
+                        <li>Vendors line the river selling snacks, drinks, and glowing toys at night.</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <!-- SECTION 3: IMAGE + YOUTUBE VIDEO -->
+        <div class="section media">
+            <div class="media-column">
+                <h2>Street-Level Cambodia</h2>
+                <!-- Make sure you actually place an image at images/cambodia-street.jpg -->
+                <img src="assets/img/RG-CBstreet - 1.jpeg"
+                     alt="Street scene in Cambodia with motos, flooded roads, and market stalls"
+                     class="img-fluid rounded mb-2 small-image" />
+                <p class="image-caption">
+                    A typical Cambodian street: motos, markets, and water everywhere.
+                </p>
+            </div>
+
+            <div class="media-column">
+                <h2>Video: A Glimpse of Cambodia</h2>
+                <!-- Embedded YouTube video -->
+                <div class="video-wrapper">
+                    <iframe
+                        src="https://www.youtube.com/embed/W3DGxLC8kk8"
+                        title="Cambodia Travel Guide"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <p>
+                    This travel video isn’t about my mission specifically, but it shows some of the
+                    landscapes, temples, and cities I grew to love.
+                </p>
+            </div>
+        </div>
+
+        <!-- SECTION 4: ON-PAGE ANCHOR TARGET -->
+        <div class="section" id="khmer-phrase">
+            <h2>Khmer Phrase of the Day</h2>
+            <p>
+                Try saying this simple phrase:
+            </p>
+            <p class="phrase-box">
+                <span class="khmer-word">អរគុណ</span>
+                (<span class="khmer-pronounce">aw-kun</span>) – “thank you”
+            </p>
+            <p>
+                Depending on who you’re talking to, you often add a polite ending like
+                <em>lokpu</em> (for men) or <em>nakming</em> (for women).
+            </p>
+        </div>
+
+        <!-- SECTION 5: TABLEAU EMBED -->
+        <div class="section" section id="tableau-viz" class="section tableau-section">
+  <h2>Cambodia Language Map (Tableau Viz)</h2>
+  <p>
+    This interactive map shows where different languages are spoken across
+    Cambodia. You can hover, zoom, and filter to explore the regions.
+  </p>
+
+  <div class="tableau-wrapper">
+    <div class='tableauPlaceholder' id='vizCambodiaLang' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Language map of Cambodia'
+               src='https://public.tableau.com/static/images/K2/K2BJRK42X/1_rss.png'
+               style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='path' value='shared&#47;K2BJRK42X' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image'
+               value='https://public.tableau.com/static/images/K2/K2BJRK42X/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+  </div>
+</section>
+
+<script type='text/javascript'>
+  var divElement = document.getElementById('vizCambodiaLang');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+
+  // Simple responsive sizing
+  if (divElement.offsetWidth > 900) {
+    vizElement.style.width  = '900px';
+    vizElement.style.height = '650px';
+  } else if (divElement.offsetWidth > 600) {
+    vizElement.style.width  = '100%';
+    vizElement.style.height = '600px';
+  } else {
+    vizElement.style.width  = '100%';
+    vizElement.style.height = '520px';
+  }
+
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>
+            Back to <a href="index.html">Home</a> or
+            <a href="post.html">Résumé</a>.
+        </p>
+    </footer>
+
+</body>
+</html>
